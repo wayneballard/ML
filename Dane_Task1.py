@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import OneHotEncoder
 
 """DATA EVALUATION"""
-df = pd.read_csv(r"C:\Users\limok\Downloads\International_Education_Costs.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/wayneballard/ML/refs/heads/main/International_Education_Costs.csv")
 pd.set_option("display.max_columns", None)
 pd.set_option("display.expand_frame_repr", False)
 print(f"First 10 elements of DataFrame:\n {df.head(10)}")
